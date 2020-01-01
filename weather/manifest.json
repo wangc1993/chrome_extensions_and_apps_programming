@@ -16,6 +16,7 @@
         "default_title": "天气预报",
         "default_popup": "popup.html"
     },
+    //options_page属性为开发者提供了这样的接口，可以为扩展指定一个选项页面。当用户在扩展图标上点击右键，选择菜单中的“选项”后，就会打开这个页面
     "options_page": "options.html",
     "permissions": [
         "http://api.openweathermap.org/data/2.5/forecast?q=*"

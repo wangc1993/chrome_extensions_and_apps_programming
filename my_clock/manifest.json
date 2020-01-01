@@ -8,12 +8,15 @@
         "48": "images/icon48.png",
         "128": "images/icon128.png"
     },
+    //browser_action指定扩展的图标放在Chrome的工具栏中
     "browser_action": {
         "default_icon": {
             "19": "images/icon19.png",
             "38": "images/icon38.png"
         },
+        //default_title定义了当用户鼠标悬停于扩展图标上所显示的文字
         "default_title": "我的时钟",
+        //default_popup则定义了当用户单击扩展图标时所显示页面的文件位置
         "default_popup": "popup.html"
     }
 }

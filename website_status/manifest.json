@@ -14,6 +14,7 @@
             "38": "images/icon38.png"
         }
     },
+    //background域可以使扩展常驻后台。background可以包含三种属性，分别是scripts、page和persistent
     "background": {
         "scripts": [
             "js/status.js"
